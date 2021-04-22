@@ -125,7 +125,7 @@ text-align:center;
   	width: 50%;
   }
   section .header2:before, section .header2:after{
-  	margin: 1.25vw 1vw;
+  	margin: 1.25em 1em;
   	height: .25vw;
   }
   section .header2 img{height:3vw;}
