@@ -173,48 +173,36 @@ nav .links .quatro{
   width: 100%;
   background-color: #6cc24a;
   margin: 0 auto;
-  padding-top:40px;
+  padding-top:45px;
   padding-bottom:40px;
 }
 
 .novas article h1 {
   width: 100%;
-  margin-bottom:20px;
+  margin-bottom:.5em;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
-  max-width:960px;
-
 }
 
 .novas article {
   margin-top: 10px;
-  width:90%;
-  max-width:800px;
-  
+  width:100%;
+  max-width:960px;  
 }
 
 .novas article span {
   font-size: 1.3em;
-  color: #123;
+  color: rgb(8, 65, 3);
   
 }
 
-.novas article img {
-  width: 20%;
-  display: block;
-  margin: 0 auto;
-
-}
-
 .novas article p {
-
-  padding: 0.3em;
+  padding: 0em;
   text-align: center;
-  line-height: 1.4em;
-  font-size: 1.2em;
+  line-height: 1.5em;
+  font-size: 1em;
   color: white;
-
 }
 
 /*
@@ -283,6 +271,13 @@ margin:0 auto;
 	display:flex;
 	
 	}
+	.novas article p{
+		font-size: 1.75em;
+	}
+	.novas article h1{
+		font-size: 2.75vw;
+	}
+
 
 }
 @media screen and (max-width: 480px) {
