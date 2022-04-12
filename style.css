@@ -221,7 +221,7 @@ sevices
 */
 
 .services {
-	min-height: 100vh;
+	height: 100vh;
 	background-color: #0389ff;
 	color: white;
 	display: flex;
@@ -250,38 +250,39 @@ sevices
 
 .services article .service-info {
 	width: 90%;
-	padding: 1em;
+	padding: .5em 1em;
 	margin: .5em auto;
 	border: solid white;
 	border-width: 2px 7px 7px 2px;
 	border-radius: 8px;
-	height: 20vh;
+	height: 18vh;
 	transform: skewX(-7.5deg);
-	mmax-height: 10px;
+	display: flex;
+	flex-direction: column;
+
 }
 
 .services article .box-service img {
-	width: 10px;
-	height: 10px;
+	width: 100px;
+	height: 100px;
 	padding: 20px;
-	bborder: 3px solid white;
-	border-image-source: linear-gradient(to top left, #e34f26, #f7df1e, #123);
-	border-image-slice: 1;
-
 }
 
 .services article .service-info h2 {
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 1.25em;
 	transform: skewX(7.5deg);
+	width: 100%;
+	margin: auto;
 }
 
-.services article div p {
-	
-	line-height: 1.5em;
+.services article .service-info p {
+	width: 100%;
+	line-height: 1.1em;
 	font-size: 1.1em;
 	transform: skewX(7.5deg);
 
+	margin: auto;
 }
 
 
@@ -509,14 +510,14 @@ sevices
 	}
 
 	.novas article p {
-		font-size: 1.75em;
+		font-size: 1.5em;
 	}
 
 	.novas article h1 {
-		font-size: 2.75vw;
+		font-size: 2.5em;
 	}
 	.services h1{
-		font-size: 2.75em;
+		font-size: 2.5em;
 	}
 
 
