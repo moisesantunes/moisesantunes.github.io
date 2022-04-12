@@ -152,7 +152,7 @@ nav .links .quatro {
 }
 
 .hero-text p {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	margin: 10px auto
 }
 
@@ -189,8 +189,9 @@ nav .links .quatro {
 	width: 100%;
 	margin-bottom: .5em;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	color: white;
+	padding: .25em;
 }
 
 .novas article {
@@ -206,10 +207,10 @@ nav .links .quatro {
 }
 
 .novas article p {
-	padding: 0em;
+	padding: .5em;
 	text-align: center;
 	line-height: 1.5em;
-	font-size: 1em;
+	font-size: 1.2em;
 	color: white;
 }
 
