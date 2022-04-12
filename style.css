@@ -245,7 +245,6 @@ sevices
 .services article .box-service {
 	width: 100%;
 	display: flex;
-	border: #e34f26 1px solid;
 }
 
 .services article .service-info {
