@@ -173,7 +173,7 @@ nav .links .quatro {
 }
 
 .novas {
-	min-height: 100vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -207,7 +207,7 @@ nav .links .quatro {
 }
 
 .novas article p {
-	padding: .5em;
+	padding: .25em .5em;
 	text-align: center;
 	line-height: 1.5em;
 	font-size: 1.2em;
@@ -255,18 +255,14 @@ sevices
 	border: solid white;
 	border-width: 2px 7px 7px 2px;
 	border-radius: 8px;
-	min-height: 25vh;
-/*
-	border-image-source: linear-gradient(to top left, #e34f26, #f7df1e, #123);
-	border-image-slice: 1;
-*/
+	height: 20vh;
 	transform: skewX(-7.5deg);
-	height: 175px;
-
+	mmax-height: 10px;
 }
 
 .services article .box-service img {
-	width: 25%;
+	width: 10px;
+	height: 10px;
 	padding: 20px;
 	bborder: 3px solid white;
 	border-image-source: linear-gradient(to top left, #e34f26, #f7df1e, #123);
