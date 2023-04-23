@@ -31,7 +31,7 @@ request.onupgradeneeded = function(event) {
 };
 */
 
-
+let corpo = document.getElementsByTagName("body")[0]
 let menu= document.getElementById("menu");
 let links = document.querySelectorAll(".link")
 let tp=2.4
@@ -65,3 +65,15 @@ menu.addEventListener("click", ()=>{
 	 }
 	 */
 })
+window.onscroll=function(){
+	if(menu.classList.contains("fechado")){
+		for(let i=0;i<links.length;i++){
+			links[i].style.left =tp +"cm"
+			tp= tp + 2.4
+		}
+		menu.classList.add("aberto")
+		menu.classList.remove("fechado")
+		posicao = 0;
+		passo= 0.1;
+	}
+}
