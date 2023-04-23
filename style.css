@@ -229,10 +229,12 @@ sevices
 	padding-top: 3em;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .services article {
 	max-width: 960px;
+	border: 1px solid seagreen;
 }
 
 .services h1 {
@@ -241,11 +243,6 @@ sevices
 	width: 100%;
 	max-width: 800px;
 	padding: .25em;
-}
-
-.services article .box-service {
-	width: 100%;
-	display: flex;
 }
 
 .services article .service-info {
@@ -259,13 +256,6 @@ sevices
 	transform: skewX(-7.5deg);
 	display: flex;
 	flex-direction: column;
-
-}
-
-.services article .box-service img {
-	width: 100px;
-	height: 100px;
-	padding: 20px;
 }
 
 .services article .service-info h2 {
@@ -281,10 +271,15 @@ sevices
 	line-height: 1.1em;
 	font-size: 1.1em;
 	transform: skewX(7.5deg);
-
+	text-align: center;
 	margin: auto;
 }
 
+
+/* 
+minhas coisas já feitas
+
+*/
 
 
 .minhas-coisas {
@@ -516,7 +511,8 @@ sevices
 	.novas article h1 {
 		font-size: 2.5em;
 	}
-	.services h1{
+
+	.services h1 {
 		font-size: 2.5em;
 	}
 
