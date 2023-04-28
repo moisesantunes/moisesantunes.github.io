@@ -314,20 +314,18 @@ minhas coisas já feitas
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
-	max-width: 1080px;
-	border: #1da1f2 1px solid;
+	width: 960px;
+	
 
 
 }
 
 .box {
-	
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-items: center;
 	margin: 10px;
-
 }
 
 .smartphone {
@@ -340,6 +338,7 @@ minhas coisas já feitas
 	border-radius: 0.75cm;
 	margin: 0px auto;
 	background-color: #123;
+
 
 }
 
