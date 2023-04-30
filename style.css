@@ -196,7 +196,6 @@ nav .links .quatro {
 
 .novas article {
 	margin-top: 10px;
-	width: 100%;
 	max-width: 960px;
 }
 
@@ -230,11 +229,12 @@ sevices
 	justify-content: center;
 	align-items: center;
 
+	width: 100vw;
+
 }
 
 .services article {
 	max-width: 960px; 
-	border: .1cm solid black;
 }
 
 .services h1 {
@@ -276,6 +276,8 @@ sevices
 }
 
 
+
+
 /* 
 minhas coisas já feitas
 
@@ -291,7 +293,8 @@ minhas coisas já feitas
 	color: white;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	border: #e34f26 solid 1px;
+
+	width: 100vw;
 }
 
 
@@ -308,21 +311,23 @@ minhas coisas já feitas
 #cells {
 	margin: 0 auto;
 	display: flex;
-	flex-flow: row wrap;
+	fflex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
-	width: 960px;
-	
-border: #123 solid .2cm;
+	max-width: 960px;
+
+overflow: auto;
+
+border: #6cc24a solid 1px;
 
 }
 
 .box {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	align-items: center;
-	margin: 10px;
+	ddisplay: flex;
+	jjustify-content: space-around;
+	aalign-items: center;
+	width: 800px;
+	border:1px solid blue ;
 }
 
 .smartphone {
@@ -338,6 +343,8 @@ border: #123 solid .2cm;
 
 
 }
+
+
 
 /* The horizontal line on the top of the device */
 .smartphone .saida {
@@ -424,6 +431,11 @@ border: #123 solid .2cm;
 }
 
 
+
+
+
+
+/* Parte de contato */
 .contato {
 	padding-top: 1.5cm;
 	background: #e34f26;
