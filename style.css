@@ -234,6 +234,7 @@ sevices
 
 .services article {
 	max-width: 960px; 
+	border: .1cm solid black;
 }
 
 .services h1 {
@@ -245,8 +246,8 @@ sevices
 }
 
 .services article .service-info {
-	width: 90%;
-	padding: .5em 1em;
+	width: 95%;
+	padding: .4em .8em;
 	margin: .5em auto;
 	border: solid white;
 	border-width: 2px 7px 7px 2px;
@@ -290,21 +291,17 @@ minhas coisas já feitas
 	color: white;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	border: #e34f26 solid 1px;
 }
 
 
-.minhas-coisas .porta-coisas {
-	width: 90%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
 
 .minhas-coisas h1 {
 	margin: 1em 0;
 	width: 100%;
 	text-align: center;
 	max-width: 800px;
+	
 }
 
 
@@ -316,7 +313,7 @@ minhas coisas já feitas
 	align-items: center;
 	width: 960px;
 	
-
+border: #123 solid .2cm;
 
 }
 
@@ -495,36 +492,3 @@ minhas coisas já feitas
 	font-size: 1.2em;
 }
 
-
-@media screen and (min-width:790px) {
-	.services article .box-service {
-		width: 90%;
-		display: flex;
-
-	}
-
-	.novas article p {
-		font-size: 1.5em;
-	}
-
-	.novas article h1 {
-		font-size: 2.5em;
-	}
-
-	.services h1 {
-		font-size: 2.5em;
-	}
-
-
-}
-
-@media screen and (max-width: 480px) {
-	bbody {
-		background-color: lightgreen;
-	}
-
-	.services article .box-service img {
-		display: none;
-	}
-
-}
